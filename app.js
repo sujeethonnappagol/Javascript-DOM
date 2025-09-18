@@ -14,8 +14,61 @@
 // }
 // welcome()
 
-function split(){
-    let amount = document.getElementById('amount');
-    let person = document.getElementById('person');
-    let resultdiv = amount.value / person.value;
+// function split(){
+//     let amount = document.getElementById('amount');
+//     let persons = document.getElementById('persons');
+//     let result = (amount.value / persons.value).toFixed(2);
+//     let resultDiv = document.getElementById('result');
+//     resultDiv.innerText = result;
+// }
+// split()
+
+// let counter = 0;
+// function increment(){
+//     counter = counter + 1;
+//     let counterResult = document.getElementById('counterResult');
+//     counterResult.innerText = counter
+// }
+
+// function decrement(){
+//     if (counter > 0){
+//         counter = counter - 1;
+//         let counterResult = document.getElementById('counterResult');
+//         counterResult.innerText = counter
+//     }
+// }
+
+
+
+function add(){
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let number = Number;
+    let result = number(num1) + Number(num2);
+    let resultDiv = document.getElementById('result');
+    resultDiv.innerText = result;    
+}
+function sub(){
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let number = Number;
+    let result = number(num1) - Number(num2);
+    let resultDiv = document.getElementById('result');
+    resultDiv.innerText = result;    
+}
+function mult(){
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let number = Number;
+    let result = number(num1) * Number(num2);
+    let resultDiv = document.getElementById('result');
+    resultDiv.innerText = result;    
+}
+function div(){
+    let num1 = document.getElementById('num1').value;
+    let num2 = document.getElementById('num2').value;
+    let number = Number;
+    let result = number(num1) / Number(num2);
+    let resultDiv = document.getElementById('result');
+    resultDiv.innerText = result;    
 }
