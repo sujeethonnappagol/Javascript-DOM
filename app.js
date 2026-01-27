@@ -72,3 +72,5 @@ function div(){
     let resultDiv = document.getElementById('result');
     resultDiv.innerText = result;    
 }
+
+// me have to learn more on this
