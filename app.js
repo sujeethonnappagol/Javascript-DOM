@@ -22,6 +22,7 @@
 //     resultDiv.innerText = result;
 // }
 // split()
+//innerText and innerHTML are properties of getElementById
 
 // let counter = 0;
 // function increment(){
